@@ -44,7 +44,47 @@
       </p>
     </div> <!--FIN DE LINTRODUCTION-->
       <div class="oklm">
-        <h3><u>Exemple de CSS :</u></h3>
+        <h3><u>Exemple de CSS :</u></h3> <!--DEBUT DE LEXPLICATION-->
+          <p>
+            Une feuille de styles CSS fonctionne sous forme de déclarations.
+          </p>
+          <p>
+            <strong>selecteur{propriété:valeur;}</strong>
+          </p>
+            <p>
+              Une déclaration est composée au minimum de deux éléments : l'élément de la page auquel on souhaite appliquer un style (le sélecteur), et le groupe de règles définissant le style (propriété et valeur). Analysons cette déclaration :
+            </p>
+            <p>
+              <strong>h1 { color: red }</strong>
+            </p>
+            <p>
+              Ici, l'élément à mettre en forme est h1 (titre de niveau 1) et le groupe de règles, délimité par les accolades, contient la règle « mettre cet élément en rouge ». Une règle consiste en une propriété (ici color), suivie par deux points (:), suivie enfin par la valeur associée à la propriété (ici rouge).
+
+Il est bien évidemment possible de spécifier plusieurs règles, pour un même élément, en les séparant par des point-virgules (;) de cette façon :
+            </p>
+            <p>
+              <strong>h1 {
+   color: red;
+   font-weight: bold
+}
+        </strong>
+            </p>
+            <p>
+              On peut aussi spécifier le même jeu de règles pour plusieurs identifiants en les séparant par des virgules (,) :
+
+
+            </p>
+            <p>
+              <strong>h1, h2 {
+   color: red;
+   font-weight: bold
+}
+</strong>
+            </p>
+            <p>
+              Remarque : la dernière règle du groupe ne comporte pas obligatoirement de point-virgule terminal. Toutefois le mettre systématiquement évite de l'oublier. Il faut savoir que les erreurs de syntaxes CSS ont pour effet d'interrompre dans le navigateur web l'interprétation des styles et donc la mise en forme. Contrairement au moteur d'interprétation du code Html des navigateurs, l'interprétation des CSS par les navigateurs ne corrige habituellement pas d'erreur de syntaxe.
+            </p>
+
       </div>
 </footer>
 
