@@ -55,16 +55,18 @@ ul {
     font-family: arial;
     background-color: #2AA9E0;
     border-radius: 10px;
+    margin-top: 100px;
 
 
 }
 .oklm p {
 background-color: #0070BA;
+text-align: center;
 
 }
 
 body {
-  background: url("css.jpg");
+
 
 
 }
@@ -79,5 +81,16 @@ background-color: white;
   background-color: #2AA9E0;
   border-radius: 10px;
   margin-top: 100px
+
+}
+
+.hyx p {
+background-color: #0070BA;
+text-align: center
+
+}
+
+.ninus p {
+text-align: center;
 
 }
