@@ -1,5 +1,5 @@
 .zed {
-
+/*ICONE CSS*/
     text-align: center;
     position: absolute;
     margin-left: 650px;
@@ -15,18 +15,20 @@ h1 {
 
 
 }
-
+/*ARRIERE PLAN*/
 .lucian {
     text-align: center;
     float: center;
 
     margin-left: 50px
 }
-
+/*INTRO AGAIN*/
 .ninus {
     margin-top: 450px;
     font-family: arial;
-    padding-bottom: 40px
+    padding-bottom: 40px;
+    background-color: #2AA9E0;
+    border-radius: 10px;
 
 }
 
@@ -40,15 +42,42 @@ ul {
 
 }
 
-
+/*ABOUT INTRO*/
 .papa{
     padding-top: 25px;
+    background-color: #0070BA;
 
 
 }
-
+/*EXEMPLE DU CSS*/
 
 .oklm {
     font-family: arial;
+    background-color: #2AA9E0;
+    border-radius: 10px;
+
+
+}
+.oklm p {
+background-color: #0070BA;
+
+}
+
+body {
+  background: url("css.jpg");
+
+
+}
+/*INTRO*/
+.ninus ul strong li {
+background-color: white;
+
+}
+/*CONSEIL*/
+.hyx {
+  font-family: arial;
+  background-color: #2AA9E0;
+  border-radius: 10px;
+  margin-top: 100px
 
 }
